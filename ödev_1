@@ -1,0 +1,22 @@
+
+
+SORU 1:
+
+SELECT title, description From film;
+
+
+Soru2: 
+
+SELECT * From film Where Length > 60 AND Length<75 ; 
+
+Soru3:
+
+SELECT * From film WHERE rental_rate= 0.99 AND replacement_Cost<12.99 OR replacement_cost=28.99
+
+soru 4: 
+
+SELECT last_name From Customer Where first_name= Mary
+
+Soru 5 : 
+ 
+SELECT * FROM film WHERE NOT length > 50 And NOT (rental_rate = 2.99 OR rental_rate = 4.99);
